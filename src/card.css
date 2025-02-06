@@ -43,7 +43,7 @@
 .card:hover {
     cursor: pointer;
     box-shadow: 1px 1px 20px rgba(134, 139, 139, 0.552);
-    scale: 1.05;
+    scale: 1.023;
 }
 
 .para {
