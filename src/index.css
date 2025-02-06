@@ -1,0 +1,121 @@
+.movie-list{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #222325;
+}
+
+.search-container {
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    margin-bottom: 60px;
+    height: 60px;
+}
+
+.search-container input {
+    font-size: 25px;
+    padding: 16px;
+    padding-left: 25px;
+    width: 700px;
+    border-radius: 250px;
+    background-color: #2f2f2f;
+    border-color: #000000;
+    font-family: 'Poppins', Courier, monospace;
+    color: #bdbdbdde;
+    border: 0px;
+    box-shadow: 3px 3px 4px rgba(20, 20, 20, 0.231);
+    outline: none;
+    position: relative;
+    left: 62.5px;
+    padding-right: 130px;
+}
+
+.search-container button {
+    font-size: 25px;
+    padding: 16px;
+    padding-left: 14px;
+    border-radius: 250px;
+    background-color: #0097A7;
+    border-color: #000000;
+    font-family: 'Poppins', Courier, monospace;
+    color: rgb(39, 39, 39);
+    box-shadow: 3px 3px 4px rgba(20, 20, 20, 0.231);
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    position: relative;
+    right: 62.5px;
+}
+
+.search-container button:hover {
+    background-color: #00a3b6;
+    /*box-shadow: 1px 1px 10px rgba(0, 166, 184, 0.503);*/
+}
+
+.search-container input:hover {
+    background-color: #2d2d2d;
+}
+
+.no-r-f{
+    text-align: center;
+    color: rgba(214, 214, 214, 0.87);
+    font-size: 28px;
+    font-family: 'Poppins', Courier, monospace;
+    margin-top: 70px;
+    text-shadow: 1.5px 3px 3pt rgba(50, 50, 50, 0.503);
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    background-color: #1f1f1f95;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid #161616 0.7px;
+    position: absolute;
+    top: 0px;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.button-holder {
+    display: flex;
+    gap : 30px;
+    padding-right: 40px;
+}
+
+.head-btn {
+    background-color: transparent;
+    color: rgb(203, 203, 203);
+    font-size: 17px;
+    font-family: 'Poppins', Courier, monospace;
+    border: 0px;
+    outline: none;
+}
+
+.head-btn:hover {
+    color: #eeeeee;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.app-name {
+    text-align: center;
+    color: rgba(0, 166, 184, 0.87);
+    font-size: 50px;
+    font-family: 'Poppins', Courier, monospace;
+    margin-bottom: 34px;
+    width: auto;
+    text-shadow: 1.5px 3px 7pt rgba(0, 166, 184, 0.503);
+}
+
+.logo {
+    color: rgba(0, 166, 184, 0.87);
+    font-size: 29px;
+    font-family: 'Poppins', Courier, monospace;
+    text-shadow: 1.5px 3px 7pt rgba(0, 166, 184, 0.503);
+    transition: 150ms ease;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 257px;
+}
+
+.card {
+    width: 195px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #363739;
+    box-shadow: 1.5px 3px 2px #0f0f0f3b;
+    border: solid 0.3px #363739;
+    transition: 250ms ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px rgba(134, 139, 139, 0.552);
+    scale: 1.05;
+}
+
+.para {
+    text-align: center;
+    color: #bdbdbd;
+    font-family: 'Poppins', Courier, monospace;
+}
+
+.year {
+    text-align: center;
+    color: #8d8d8d;
+    font-family: 'Poppins', Courier, monospace;
+}
