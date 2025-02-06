@@ -10,7 +10,7 @@ function App() {
 
     let [x, setX] = useState([]);
 
-    const API = "http://www.omdbapi.com/?apikey=9c71b8d9";
+    const API = "https://www.omdbapi.com/?apikey=9c71b8d9";
 
     let count = 0;
 
