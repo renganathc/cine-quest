@@ -11,7 +11,7 @@ function Search(props) {
     return (
         <>
             <div className="search-container">
-            <input type="text" placeholder="Search up a MoBie" value={text} onKeyDown={(e) => {if(e.key === "Enter") { props.onSearch(text) }}} onChange={(e) => handleChange(e)}/>
+            <input type="text" placeholder="Search up a Movie" value={text} onKeyDown={(e) => {if(e.key === "Enter") { props.onSearch(text) }}} onChange={(e) => handleChange(e)}/>
             <button onClick={() => props.onSearch(text)}>Search</button>
             </div>
         </>
